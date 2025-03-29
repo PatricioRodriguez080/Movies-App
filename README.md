@@ -5,7 +5,7 @@
 
 1. Clona este repositorio:
    ```sh
-    git clone https://github.com/PatricioRodriguez080/MoviesApp.git
+    git clone https://github.com/PatricioRodriguez080/Movies-App.git
     cd MoviesApp
 
 2. Instala las dependencias en backend y frontend:
