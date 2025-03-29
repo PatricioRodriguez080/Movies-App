@@ -1,5 +1,21 @@
 # Decisiones de Diseño
 
+## 🏗️ Arquitectura del Proyecto
+![Arquitectura del Proyecto](./images/Arquitectura%20Movies-App.jpeg)
+
+## 🗄️ Arquitectura de la Base de Datos
+La base de datos utilizada en este proyecto es **movies.db**, que almacena la información en la tabla `favorites`.  
+
+```sql
+   Table favorites {
+   id       INTEGER [primary key, autoincrement]
+   Title    TEXT
+   Relesed  TEXT
+   Runtime  TEXT
+   Poster   TEXT
+}
+```
+
 ## Herramientas principales
 
 - **Next.js**: Usado por su rendimiento y capacidad de renderizado en el servidor.
